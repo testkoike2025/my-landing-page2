@@ -35,11 +35,16 @@ nav ul li a {
 
 /* メインビジュアル */
 .hero {
-    background-image: url('coffee.jpg'); /* コーヒーの画像を設定 */
-    background-size: cover;
-    padding: 100px 20px;
+    position: relative;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 50px 20px;
+}
+
+.full-width {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
 }
 
 /* 各セクション */
@@ -49,6 +54,14 @@ section {
 
 h2 {
     color: #6f4e37;
+}
+
+/* 画像スタイル */
+.content-img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 /* フッター */
