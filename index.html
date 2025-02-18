@@ -74,18 +74,9 @@
     
     </section>
 
+<!-- HTMLの最後でJavaScriptを読み込む -->
+<script src="script.js"></script>
 
-    <script>
-    window.addEventListener("scroll", function() {
-        let elements = document.querySelectorAll(".fade-in");
-        elements.forEach((el) => {
-            let rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 100) {
-                el.classList.add("visible");
-            }
-        });
-    });
-</script>
 
 </body>
 </html>
