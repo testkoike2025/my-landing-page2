@@ -70,3 +70,34 @@ footer {
     color: white;
     padding: 15px 0;
 }
+@media (max-width: 768px) {
+    /* メニューを縦並びにする */
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        width: 90%;
+    }
+
+    /* セクションの内側の余白を調整 */
+    section {
+        padding: 30px 15px;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* JavaScriptでこのクラスを追加すると表示 */
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
