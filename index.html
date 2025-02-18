@@ -6,19 +6,7 @@
     <title>こだわりのコーヒーショップ</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-    <script>
-    window.addEventListener("scroll", function() {
-        let elements = document.querySelectorAll(".fade-in");
-        elements.forEach((el) => {
-            let rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 100) {
-                el.classList.add("visible");
-            }
-        });
-    });
-</script>
-
+    
 <body>
 
     <!-- ヘッダー -->
@@ -70,6 +58,18 @@
     <footer>
         <p>&copy; 2025 こだわりのコーヒーショップ</p>
     </footer>
+
+    <script>
+    window.addEventListener("scroll", function() {
+        let elements = document.querySelectorAll(".fade-in");
+        elements.forEach((el) => {
+            let rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                el.classList.add("visible");
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
