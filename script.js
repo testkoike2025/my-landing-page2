@@ -2,7 +2,7 @@ console.log("JavaScriptファイルが読み込まれました！");
 
 // ここにハンバーガーメニューやスクロールアニメーションのコードを追加
 
-    <script>
+<script>
     window.addEventListener("scroll", function() {
         let elements = document.querySelectorAll(".fade-in");
         elements.forEach((el) => {
